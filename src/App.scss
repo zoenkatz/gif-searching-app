@@ -1,0 +1,40 @@
+html{
+  background-color: black;
+}
+.App {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+
+  .search-lining{
+    margin: 10px;
+    border: 1px solid #0748ff;
+    background-color: #53694e;
+
+    input{
+      border: 3px solid black;
+      margin-bottom: 10px;
+      height: 24px;
+      width: 233px;
+    }
+  }
+
+  img{
+    border: 2px solid #0748ff;
+    margin: 10px;
+  }
+
+  #page-numbers{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    li{
+      list-style-type: none;
+
+      .button-current{
+        background-color: yellow;
+      }
+    }
+  }
+}
